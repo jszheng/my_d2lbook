@@ -14,3 +14,46 @@ Please first install my favorite package ``numpy``.
 
     this is a Jupyter code cell
 
+
+Images
+------
+
+We can put the image caption in ``[]``. In addition, we can use
+``:width:`` followed by its value in an inline block to specify the
+image width, similarly use ``:height:``\ for height.
+
+.. figure:: assets/koebel-16489559658632.jpg
+   :width: 400px
+
+   Estimating the length of a foot
+
+
+SVG Image
+---------
+
+We recommend you to use SVG images as much as you can. It is sharp and
+its size is small. But since Latex doesn’t support SVG images, if you
+want to build a PDF output, you need to install ``rsvg-convert``. On
+Macos, you can simply ``brew install librsvg`` or
+``sudo apt-get install librsvg2-bin`` for Ubuntu.
+
+.. figure:: ./assets/lstm.svg
+
+   A LSTM Cell in SVG
+
+Tables
+------
+
+You can insert table caption before the table by starting it with a
+``:``. Note that you need to leave an empty line between the caption and
+the table itself.
+
+.. table:: The number is computed by
+   :math:`z_{ij} = \sum_{k}x_{ik}y_{kj}`.
+
+   ==== ====== ====================================================
+   Year Number Comment
+   ==== ====== ====================================================
+   2018 100    Good year
+   2019 200    Even better, add something to make this column wider
+   ==== ====== ====================================================

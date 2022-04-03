@@ -5,4 +5,9 @@ My Book
 The starting page of my book with ``d2lbook``.
 
 .. toctree::
+   :maxdepth: 2
+   :numbered:
+
    get_started
+
+Using d2l book, see doc https://book.d2l.ai/
